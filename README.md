@@ -1,5 +1,18 @@
 # sj24-25-34baif-postheorie
 
+## Sommersemester
+
+Beurteilung:
+
+- 2 + 1 Ersatztermin schriftl. Arbeiten (Test) 
+- - 20. März
+- -  8. Mai
+- - 22. Mai
+- 1. Juni 23:59 Deadline abgabe Graphenprogramm
+- Graphenprogramm m. Abgabegespräch
+
+Beide müssen positiv sein. Jedes zählt 50%
+
 <https://graphen.theoretische-informatik.at/>
 
 ## PLFs
