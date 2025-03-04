@@ -1,5 +1,9 @@
 # sj24-25-34baif-postheorie
 
+## 2025-02-25
+
+**HÜ** ein Programm zu schreiben, welches 2 Matrizen multipliziert
+
 ## Sommersemester
 
 Beurteilung:
