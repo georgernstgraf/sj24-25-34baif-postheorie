@@ -23,7 +23,7 @@
     <h1 class="text-center my-3">Matrixmultiplikation</h1>
     <h2 class="text-center my-3">Input</h2>
     <div id="inputs"
-         class="d-flex w-auto justify-content-around">
+         class="d-flex w-auto justify-content-between">
         <div class="d-flex flex-column">
             <h3 class="text-center">Matrix 1</h3>
             <div class="input-group">
@@ -46,7 +46,7 @@
             </div>
         </div>
         <button id="btn_calculate"
-                class="btn btn-secondary"
+                class="btn btn-warning"
                 type="button">multiply</button>
         <div class="d-flex flex-column">
             <h3 class="text-center">Matrix 2</h3>
@@ -74,7 +74,8 @@
     <h2 class="text-center my-3"> Output</h2>
 
     <div class="d-flex justify-content-center w-auto">
-        <pre class="border border-3 ratio ratio-4x3 bg-body rounded-3 p-1"><code id="output">  </code></pre>
+        <pre id="outputpre"
+             class="border border-3 bg-body rounded-3 p-1"><code id="output">  </code></pre>
     </div>
     <h2 class="text-center my-3">Samples</h2>
     <div id="samples"

@@ -27,6 +27,11 @@ function showToast({ msg, error }) {
         toastLiveExample.classList.remove("bg-success");
     }
 }
+function matrix_toString(matrix) {
+    return `  [\n${
+        matrix.map((line) => `[${line.join(", ")}]`).join(",\n")
+    }\n  ]`;
+}
 function validateMatrix(elt) {
     let matrix = elt.value;
     try {
@@ -52,9 +57,8 @@ function validateMatrix(elt) {
 function multiply() {
     const matrix1 = JSON.parse(matrix_1.value);
     const matrix2 = JSON.parse(matrix_2.value);
-    let erg = { m1: matrix1, m2: matrix2 };
-    output.textContent = JSON.stringify(erg, null, 4);
-    console.log("Multiply");
+    let erg = matrix1;
+    output.textContent = matrix_toString(erg);
 }
 //6.INIT BINDINGS
 btn_clear_1.addEventListener("click", () => {
