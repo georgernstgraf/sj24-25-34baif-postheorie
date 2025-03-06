@@ -55,10 +55,19 @@ function validateMatrix(elt) {
     }
 }
 function multiply() {
+    // TODO Annahme alle sind quadratisch und gleich groß
     const matrix1 = JSON.parse(matrix_1.value);
     const matrix2 = JSON.parse(matrix_2.value);
-    let erg = matrix1;
-    output.textContent = matrix_toString(erg);
+    const n = matrix1.length;
+    const rv = Array(n).fill().map(() => Array(n).fill(0));
+    for (let z = 0; z < n; z++) {
+        for (let s = 0; s < n; s++) {
+            for (let i = 0; i < n; i++) {
+                rv[z][s] += matrix1[z][i] * matrix2[i][s];
+            }
+        }
+    }
+    output.textContent = matrix_toString(rv);
 }
 //6.INIT BINDINGS
 btn_clear_1.addEventListener("click", () => {
