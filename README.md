@@ -1,5 +1,15 @@
 # sj24-25-34baif-postheorie
 
+## Stoff für Test
+
+<https://grafg1.spengergasse.at/>
+
+- dijkstra
+- kruskal für spanning tree
+- prim für spanning tree
+- bachmann-landau notation zu geg. code
+- turing maschine, einfache Aufgaben
+
 ## 2025-02-25
 
 **HÜ** ein Programm zu schreiben, welches 2 Matrizen multipliziert
