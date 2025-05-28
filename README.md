@@ -22,15 +22,9 @@ Beurteilung:
 - - 20. März
 - - 8. Mai
 - - 22. Mai
-- 1. Juni 23:59 Deadline abgabe Graphenprogramm
-- Graphenprogramm m. Abgabegespräch
+- 5. Juni 23:59 Deadline abgabe Graphenprogramm
+- Graphenprogramm und Video
 
 Beide müssen positiv sein. Jedes zählt 50%
 
 <https://graphen.theoretische-informatik.at/>
-
-## PLFs
-
-- 21.11.
-- 16.1. (ACHTUNG verschoben weg vom 9.1.)
-- 23.1. Nachtest
